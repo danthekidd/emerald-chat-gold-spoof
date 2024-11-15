@@ -2,8 +2,8 @@
 // @name         Emerald Chat Gold Spoof
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
-// @description  Spoofs gold status on Emerald Chat by setting App.user.gold to true
-// @author       You
+// @description  Spoofs gold on Emerald Chat
+// @author       danthekidd
 // @match        https://emeraldchat.com/app
 // @grant        none
 // @icon         https://emeraldchat.com/favicon.ico
