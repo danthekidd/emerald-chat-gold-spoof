@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Emerald Chat Platinum Spoof
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
+// @version      1.1.2
 // @description  Spoofs platinum on Emerald Chat
 // @author       danthekidd
 // @match        https://emeraldchat.com/app*
