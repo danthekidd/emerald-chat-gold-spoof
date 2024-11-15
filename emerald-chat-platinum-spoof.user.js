@@ -15,6 +15,7 @@
 
     const interval = setInterval(() => {
         if (typeof App !== 'undefined' && App.user) {
+            App.user.gold = true;
             App.user.platinum = true;
             App.user.has_premium_badge = true;
         }
@@ -36,6 +37,7 @@
                 (this._url.endsWith("current_user") || this._url.endsWith("current_user_json"))) {
                 try {
                     let responseData = JSON.parse(this.responseText);
+                    responseData.gold = true;
                     responseData.platinum = true;
                     responseData.has_premium_badge = true;
 
