@@ -5,6 +5,7 @@
 // @description  Spoofs gold on Emerald Chat
 // @author       danthekidd
 // @match        https://emeraldchat.com/app
+// @match        https://beta.emeraldchat.com/app
 // @grant        none
 // @icon         https://emeraldchat.com/favicon.ico
 // ==/UserScript==
