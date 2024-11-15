@@ -14,10 +14,10 @@
     'use strict';
 
     const interval = setInterval(() => {
-        if (typeof App !== 'undefined' && App.user) {
-            App.user.gold = true;
-            App.user.platinum = true;
-            App.user.has_premium_badge = true;
+        if (typeof window.App !== 'undefined' && window.App) {
+            window.App.user.gold = true;
+            window.App.user.platinum = true;
+            window.App.user.has_premium_badge = true;
         }
     }, 1000);
 
